@@ -43,3 +43,32 @@ Desde la terminal, ejecutar:
 
 ```bash
 node ejercicio1-validar-usuario.js
+node ejercicio2-promesas-usuarios.js
+
+Resultados esperados
+Ejercicio 1
+
+El programa debe mostrar en consola si cada usuario es válido o inválido, junto con un mensaje explicativo.
+
+Ejemplo:
+
+Usuario 1: { valido: true, mensaje: 'Usuario válido.' }
+Usuario 2: { valido: false, mensaje: 'El nombre no puede estar vacío.' }
+Usuario 3: { valido: false, mensaje: 'El usuario debe ser mayor o igual a 18 años.' }
+Usuario 4: { valido: false, mensaje: 'El correo debe contener el símbolo @.' }
+Ejercicio 2
+
+El programa debe mostrar en consola los usuarios encontrados y un mensaje de error cuando el ID no exista.
+
+Ejemplo:
+
+Usuario encontrado: { id: 1, nombre: 'Katherine', correo: 'katherine@gmail.com' }
+Usuario encontrado: { id: 2, nombre: 'Pedro', correo: 'pedro@gmail.com' }
+Error: Usuario no encontrado.
+Conclusión
+
+Estos ejercicios permiten practicar fundamentos de JavaScript aplicados al testing, como funciones, validaciones, estructuras de control, promesas, manejo de errores, async/await y uso de consola para verificar resultados.
+
+Autor/a
+
+Katherine Stehberg
